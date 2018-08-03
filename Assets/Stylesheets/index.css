@@ -1,0 +1,1033 @@
+body{
+    margin: 0px;
+    background: url("../../Assets/Images/background.jpg") fixed;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top:0px;
+}
+h2{
+    color: beige;
+}
+.row{
+    display: flex;
+}
+
+.container{
+    margin: 0px auto;
+    width: 100%;
+}
+#container{
+    overflow: hidden;
+}
+
+/* header */
+
+#header{
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+}
+
+
+/* nav bar */
+
+.bg{
+    background-color: #005555 !important;
+}
+.navbar-expand-md img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar-brand{ 
+  cursor: default;
+  padding: .3125rem 0px;
+  margin-right: 0px;
+  width: 12%;
+}
+.navbar-collapse{
+    padding-left: 0px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    margin-right: .5rem;
+    margin-left: .5rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.2rem;
+}
+.mr-auto {
+    margin-right: 1% !important;
+}
+.form-inline{
+    width: 34%;
+}
+.form-inline .form-control{
+    width: 100%;
+}
+.form-inline{
+    position: relative;
+}
+.search {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.search i{
+    color: #005555;
+    font-size: 1.3rem;
+}
+.user_section{
+    width: 15%;
+}
+.btn{
+    padding: 0.25rem .7rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: bisque;
+    margin-left: 1%;
+}
+.login{
+    margin-left: 6%;
+}
+.icons{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+}
+.user{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+}
+/* audio */
+.audio{
+    display: none;
+    position: absolute;
+}
+/* content */
+#content{
+    margin-top: 6.5%;
+}
+
+/* sidebar 1 */
+
+#sidebar_1{
+    width: 15%;
+    position: fixed;
+    height: 86.5%;
+    z-index: 99;
+    overflow-y: scroll;
+}
+.sidebar_1{
+    padding-left: 0rem;
+}
+#sidebar_1 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#sidebar_1 ul li{
+    font-size: 1.2rem;
+    padding: 0.9rem 0.9rem 1.26rem;
+    background-color: rgba(0, 85, 85, 0.6);
+    text-align: center;
+    border-top: 1px solid ghostwhite; 
+}
+#sidebar_1 ul li:hover{
+    background-color: rgba(0, 85, 85, 0.9);
+}
+#sidebar_1 ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+/* banner */
+.carousel-indicators{
+ cursor: pointer;
+ bottom: 6px;
+}
+.banner{
+    padding-left: 0rem;
+}
+#banner img{
+    max-height: 21vw;
+}
+
+/* card deck */
+
+.card-body{
+    padding: 0.8rem;
+}
+.card-deck{
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+}
+ .card{
+    flex: 0 0 21.5% !important;
+    margin-bottom: 1% !important;
+    max-height: 16vw;
+}
+.card:hover{
+    box-shadow: 0px 0.5px 5px 2px burlywood;
+}
+.span_s_name{
+    letter-spacing: 0.03rem;
+    font-weight: bolder;
+    margin-left: -4%;
+    font-size: 0.72rem;
+}
+.add_btn{
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+    padding: 0.2rem 0.5rem;
+    background-color: #005555;
+    cursor: default !important;
+}
+.fa-plus{
+    color: #F7B31D;
+    cursor: pointer;
+}
+.card-img-top{
+max-height: 12vw;
+}
+
+.card-body span:hover{
+    cursor: pointer;
+}
+.text-center {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.play_icon{
+    position: absolute;
+    top: 26%;
+    padding: 0.3rem 0.4rem 0.3rem 0.7rem;
+    left: 38%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.play_icon:focus{
+    outline: 0;
+}
+.play_icon i{
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 2%;
+    border-top: 0.4rem solid #F7B31D
+}
+
+.names{
+    margin-top: 7%;
+    color: brown;
+    font-size: 1.3rem;
+}
+.list ul{
+    margin-bottom: 12%;
+}
+.list li{
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+.list li a{
+    color: gainsboro;
+    text-decoration-line: none;
+}
+hr{
+    border-top: 1px solid black;
+}
+.fa-copyright{
+    float: left;
+    color: lightyellow;
+    margin-left: 5%;
+}
+.user_s{
+    display: inline-block;
+    margin-left: 56%;
+    color: lightyellow;
+}
+.user_s i{
+    font-size: 1.6rem;
+}
+.fb{
+    color: dodgerblue;
+}
+.tw{
+    color: aqua;
+}
+.go{
+    color: crimson;
+}
+.footer img{
+    max-width: 10vw;
+    margin-left: 41%;
+    margin-bottom: 13%;
+}
+
+/* sidebar 2 */
+
+#sidebar_2{
+    background-image: url("../../Assets/Images/sidebar.jpg");
+    position: fixed;
+    width: 23%;
+    height: 75%;
+    overflow-y: scroll;
+}
+.sidebar_2{
+    padding-left: 1.4rem;
+}
+.playlist_img{
+    max-width: 3vw;
+    position: relative;
+}
+.p_list{
+    padding: 0.75rem;
+}
+#playlist span{
+ margin-left: 3%;
+ cursor: pointer;
+}
+.p_button{
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    border-radius: 50%;
+    padding: 0rem 0.1rem 0rem 0.3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: default !important;
+    border: none;
+}
+
+.p_icon{
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.delete_btn{
+    top: 24%;
+    position: absolute;
+    right: 3%;
+    background-color: #005555;
+    cursor: default !important;
+}
+.delete_btn i {
+    color: #F7B31D;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.p_button:focus{
+    outline: 0;
+}
+.save{
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font-size: 1.1rem;
+    background-color: midnightblue !important;
+    border-color: transparent;
+}
+.btn-warning:hover{
+    border-color: transparent;
+}
+.btn-warning.focus, .btn-warning:focus {
+box-shadow: transparent;
+}
+.btn-warning:not(:disabled):not(.disabled):active{
+    border-color: transparent;
+}
+.btn-warning:focus{
+    box-shadow: unset;
+}
+.btn-warning:not(:disabled):not(.disabled):active:focus{
+    box-shadow: unset;
+}
+.btn-warning:hover{
+    color: #F7B31D;
+}
+.text{
+    margin-top: 6%;
+    font-size: 1.3rem;
+    margin-left: 4%;
+}
+
+/* player */
+
+#Player{
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    bottom: 0%;
+    height: 5vw;
+    width: 100%;
+}
+.buttons{
+    margin-top: 1.3%;
+    position: relative;
+}
+.color{
+    color: #F7B31D;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 2.1% 2%;
+    width: 96%;
+}
+input[type=range]:focus{
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 0.5vw;
+    cursor: pointer;
+    background: rgba(0, 85, 85, 0.9);    
+}
+input[type=range]::-ms-track{
+    width: 100%;
+    height: 0.5vw;
+    cursor: pointer;
+    background-color: rgba(0, 85, 85, 0.9);    
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 1.5vw;
+    width: 0.8vw;
+    margin-top: -0.85%;
+    border-radius: 10%;
+    background: #F7B31D;
+    cursor: pointer;
+}
+input[type=range]::-moz-range-thumb{
+    -webkit-appearance: none;
+    height: 1.5vw;
+    width: 0.8vw;
+    margin-top: -0.85%;
+    border-radius: 10%;
+    background: #F7B31D;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(0, 85, 85, 0.9);
+}
+
+input[type=range]:focus::-ms-track {
+    background: rgba(0, 85, 85, 0.9);
+}
+
+.slider_wrapper{
+    display: inline-block;
+    width: 100%;
+    height: 3vw;
+    margin-top: 0.9rem;
+    background-color: currentColor;
+    border-radius: 0%;
+}
+#cover{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    right: 0%;
+    top: -18%;
+}
+.song_name{
+        /* text-align: center; */
+        margin-left: 1%;
+        text-shadow: 0px 0px 3px blue;
+        /* margin: auto; */
+        color: lavenderblush;
+        font-size: 1.1rem;
+        font-family: cursive;
+}
+
+
+/* responive */
+
+@media(max-width:1200px){
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
+    .icons{
+        font-size: 1rem;
+    }
+    .form-inline{
+        width: 40%;
+    }
+    .form-control{
+        font-size: 0.9rem;
+    }
+    #sidebar_1 ul li{
+        font-size: 1.1rem;
+        padding: 0.8rem 0.1rem 1.1rem;
+    }
+    #sidebar_1 ul{
+        margin-bottom: 4rem;
+    }
+    .card{
+        flex: 0 0 20.5% !important;
+    }
+    .play_icon{
+        top: 23%;
+        padding: 0.3rem 0.4rem 0.1rem 0.7rem;
+        left: 34%;
+    }
+    .card-body{
+        padding: 0.4rem;
+    }
+    .add_btn{
+        bottom: 2%;
+    right: 2%;
+    padding: 0.1rem 0.4rem;
+    }
+    .span_s_name{
+        margin-left: -2%;
+    font-size: 0.67rem;
+    }
+    .user_s{
+        margin-top: -1%;
+    }
+    .text{
+        margin-top: 7%;
+        font-size: 1rem;
+    }
+    .save{
+        font-size: 0.9rem;
+    }
+    .song_name{
+        margin-left: 1%;
+    }
+}
+
+@media(max-width:992px){
+    #sidebar_1{
+        margin-top: 2.7%;
+    }
+    #banner {
+        margin-top: 8%;
+    }
+    #sidebar_2{
+        margin-top: 3%;
+    }
+    #sidebar_1 ul li{
+        font-size: 0.9rem;
+    padding: 0.8rem 0.1rem;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 0.9rem;
+    }
+    .icons {
+        font-size: 0.9rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+    }
+    .form-inline{
+        width: 45%;
+    }
+    .login {
+        margin-left: 4%;
+    }
+    .form-control {
+        font-size: 0.8rem;
+    }
+    .search{
+        top: 15%;
+    }
+    .text-center{
+        margin-bottom: 3%;
+        font-size: 1.6rem;
+    }
+    .card-deck .card{
+        margin-right: 8px;
+        max-height: 19vw;
+    }
+    .card-body {
+        padding: 0.2rem 0.3rem;
+        width: 85%;
+        height: 8vw;
+    }
+    .span_s_name {
+        margin-left: 0%;
+        font-size: 0.76rem;
+    }
+    .play_icon{
+        top: 16%;
+    left: 28%;
+    }
+    .play_icon i{
+        font-size: 1.6rem;
+    }
+    .add_btn{
+        padding: 0.2rem 0.5rem;
+    }
+    .fa-plus{
+        font-size: 1rem;
+    }
+    .save{
+        font-size: 0.75rem !important;
+        padding: 0.25rem .5rem;
+    }
+    .text {
+        font-size: 0.9rem;
+    }
+    .names{
+        font-size: 1.2rem;
+    }
+    .list li{
+        font-size: 0.75rem;
+    line-height: 1.5rem;
+    }
+    .user_s {
+        margin-top: -2%;
+        margin-bottom: 4%;
+        font-size: 0.9rem;
+    }
+    .footer img {
+        max-width: 12vw;
+        margin-left: 41%;
+        margin-bottom: 15%;
+    }
+    .slider_wrapper{
+        padding-bottom: 8%;
+        margin-top: 0.4rem;
+    }
+    input[type=range]::-webkit-slider-runnable-track{
+        height: 0.7vw;
+    }
+    input[type=range]::-ms-track
+    {
+        height: 0.7vw;
+    }
+    input[type=range]::-webkit-slider-thumb{
+        height: 1.7vw;
+        margin-top: -0.95%;
+    }
+    input[type=range]::-moz-range-thumb{
+        height: 1.7vw;
+        margin-top: -0.95%;
+    }
+    #playlist span{
+        font-size: 0.9rem;
+    }
+    .delete_btn{
+        right: 5%;
+        padding: 0.25rem .5rem;
+    }
+    .playlist_img {
+        max-width: 4vw;
+    }
+    .p_button{
+        left: 10%;
+    }
+    #playlist {
+        margin-top: 8%;
+    }
+
+}
+@media(max-width:768px){
+    #sidebar_1{
+        margin-top: 4.3%;
+    }
+    #sidebar_1 ul li {
+        font-size: 0.8rem;
+        padding: 0.7rem 0.1rem;
+    }
+    #banner {
+        margin-top: 11%;
+    }
+    .text-center{
+        font-size: 1.3rem;
+    }
+    .card-deck .card {
+        margin-right: 3px;
+        max-height: 21vw;
+    }
+    .card-body{
+        height: 9vw;
+        width: 91%;
+    }
+    .span_s_name{
+        font-size: 0.71rem;
+    }
+    .add_btn {
+        padding: 0.2rem 0.4rem;
+    }
+    .play_icon i {
+        font-size: 1.3rem;
+    }
+    .play_icon{
+        padding: 0.3rem 0.3rem 0rem 0.5rem;
+    }
+    .foot{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .names {
+        font-size: 1.15rem;
+    }
+    .footer img {
+        max-width: 15vw;
+        margin-left: 37%;
+    }
+    #footer{
+        margin-top: 2%;
+    }
+    #sidebar_2 {
+        margin-top: 5%;
+    }
+    .text {
+        margin-top: 11%;
+        font-size: 0.7rem;
+    }
+    .save{
+        right: 9%;
+        font-size: 0.62rem !important;
+    padding: 0.25rem .2rem;
+    }
+    #Player{
+        height: 6.3vw;
+    }
+    .buttons{
+        margin-top: 1%;
+    }
+    .song_name{
+        font-size: 0.95rem;
+    }
+    #cover{
+        top: 2%;
+    }
+    .slider_wrapper {
+        padding-bottom: 10%;
+        margin-top: 0.35rem;
+    }
+    input[type=range]::-webkit-slider-thumb{
+        height: 2.1vw;
+        width: 1.1vw;
+        margin-top: -1.7%;
+    }
+    input[type=range]::-moz-range-thumb{
+        height: 2.1vw;
+        width: 1.1vw;
+        margin-top: -1.7%;
+    }
+    #playlist span{
+        font-size: 0.7rem;
+    }   
+    .delete_btn{
+        right: 8%;
+        padding: 0.2rem .4rem;
+    }
+    .playlist_img{
+        max-width: 5vw;
+        margin-left: -6%;
+    }
+    .p_icon{
+        font-size: 0.7rem;
+    }
+    .p_button{
+        left: 8%;
+        padding: 0rem 0.2rem 0rem 0.3rem;
+    }
+    .user_section{
+        width: 19%;
+    }
+    .navbar-toggler{
+        position: absolute;
+    top: 9%;
+    left: 46%;
+    }
+    .form-inline {
+        width: 58%;
+    }
+    .login {
+        margin-left: 0%;
+    }
+    .group{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .navbar-brand{
+        width: 17%;
+    }
+}
+
+
+
+@media(max-width:640px){
+    #sidebar_1 {
+        margin-top: 7.9%;
+        width: 22%;
+    }    
+    .user_section {
+        width: 27%;
+    }
+    #banner {
+        margin-top: 13%;
+    }
+    .navbar-brand {
+        width: 24%;
+    }
+    .card-deck {
+        flex-direction: unset;
+        height: 31vw;
+    overflow-y: hidden;
+    }
+    .card {
+        flex: 0 0 28.5% !important;
+        margin-right: 16px;
+        max-height: 24vw;
+    }
+    .card-deck .card {
+        margin-right: 18px;
+        max-height: 28vw;
+    }
+    .card-img-top {
+        max-height: 16vw;
+    }
+    .span_s_name {
+        font-size: 0.78rem;
+    }
+    .text-center {
+        margin-bottom: 4%;
+    }
+    .sidebar_2{
+        display: none;
+    }
+    .foot {
+        padding-left: 27px;
+    }
+    .footer img {
+        max-width: 20vw;
+        margin-left: 34%;
+        margin-bottom: 28%;
+    }
+    #Player {
+        height: 17.3vw;
+    }
+    
+
+#cover {
+    width: 6vw;
+    height: 6vw;
+    right: 5%;
+    top: -7%;
+    }
+    .song_name {
+        margin-left: 11%;
+    }
+    .slider_wrapper {
+        padding-bottom: 0%;
+        margin-top: 0rem;
+        height: 7vw;
+    }
+    input[type=range]{
+        margin: 3.3% 2%;
+    }
+    input[type=range]::-webkit-slider-thumb{
+        height: 3.6vw;
+        width: 1.8vw;
+        margin-top: -1.7%;
+    }
+    input[type=range]::-moz-range-thumb{
+        height: 3.6vw;
+        width: 1.8vw;
+        margin-top: -1.7%;
+    }  
+}
+@media(max-width:480px){
+    .navbar-toggler{
+        left: 37%;
+    }
+    .user_section {
+        width: 35%;
+    }
+    #sidebar_1 ul li {
+        font-size: 0.75rem;
+        padding: 0.7rem 0.2rem;
+    }
+    #sidebar_1 {
+        margin-top: 8.8%;
+    }
+    #banner {
+        margin-top: 20%;
+    }
+    .user_s{
+        margin-top: 1%;
+        margin-bottom: 4%;
+        font-size: 0.8rem;
+        margin-left: 46%;
+    }
+    .footer img {
+        max-width: 25vw;
+        margin-left: 34%;
+        margin-bottom: 33%;
+    }
+    #banner img {
+        max-height: 28vw;
+    }
+    .card-deck{
+        height: 46vw;
+    }    
+    .card-deck .card {
+        margin-right: 15px;
+        max-height: 40vw;
+    }
+    .card-img-top {
+        max-height: 18vw;
+    }
+    .play_icon {
+        top: 11%;
+        left: 24%;
+    }
+    .card-body {
+        height: 9vw;
+        width: 103%;
+    }
+    .span_s_name {
+        font-size: 0.7rem;
+    }       
+    .slider_wrapper{
+        height: 8vw;
+    }
+    #Player {
+        height: 18.3vw;
+    }
+    #cover {
+        width: 7vw;
+        height: 7vw;
+        right: 5%;
+        top: -3%;
+    }
+    .song_name {
+        margin-left: 2%;
+    }
+    .span_s_name {
+        font-size: 0.65rem;
+    }
+    .card-body {
+        height: 9vw;
+        width: 107%;
+    }
+    input[type=range]::-webkit-slider-runnable-track{
+        height: 0.9vw;
+    }
+    input[type=range]::-ms-track
+    {
+        height: 0.9vw;
+    }
+}
+
+@media(max-width:360px){
+    #sidebar_1 {
+        margin-top: 14.8%;
+    }
+    #banner {
+        margin-top: 30%;
+    }
+    #banner img {
+        max-height: 29vw;
+    }
+    .card{
+        flex: 0 0 45.5% !important;
+    }    
+    .card-deck .card {
+        margin-right: 15px;
+        max-height: 43vw;
+    }
+    .card-img-top {
+        max-height: 24vw;
+    }
+    .card-deck {
+        height: 48vw;
+    }
+    .play_icon {
+        top: 15%;
+        left: 34%;
+    }
+    .user_s {
+        margin-top: 8%;
+        margin-bottom: 6%;
+    }
+    .footer img {
+        max-width: 30vw;
+        margin-left: 30%;
+        margin-bottom: 35%;
+    }
+    .user_section {
+        width: 39%;
+    }
+    .navbar-expand-md img {
+        width: 130%;
+    }
+    #cover {
+        width: 8vw;
+        height: 8vw;
+        right: 5%;
+        top: 1%;
+    }
+    .song_name {
+        margin-left: 1%;
+    }
+    .btn{
+        margin-left: -1%;
+    }    
+    #Player {
+        height: 22.3vw;
+    }
+    .slider_wrapper{
+        margin-top: 0.2rem;
+        height: 9vw;
+    }
+    input[type=range]::-webkit-slider-runnable-track{
+        height: 0.9vw;
+    }
+    input[type=range]::-ms-track
+    {
+        height: 0.9vw;
+    }
+    input[type=range]::-webkit-slider-thumb{
+        height: 3.9vw;
+        width: 2vw;
+        margin-top: -1.7%;
+    }
+    input[type=range]::-moz-range-thumb{
+        height: 3.9vw;
+        width: 2vw;
+        margin-top: -1.7%;
+    }
+
+
+    
+        
+    
+    
+
+}
+
