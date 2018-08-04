@@ -26,14 +26,14 @@ var SongsArray = [
     {
         "id" : 5,
         "SongName" : "Dance",
-        "SongUrl" : "Assets/Audio/Tere Naal Nachna.mp3",
+        "SongUrl" : "Assets/Audio/Kaun Nachdi.mp3",
         "SongImage" : "Assets/Images/dance.jpg",
     },
     {
         "id" : 6,
-        "SongName" : "Dilbar",
-        "SongUrl" : "Assets/Audio/Dilbar Dilbar.mp3",
-        "SongImage" : "Assets/Images/dilbar.jpg",
+        "SongName" : "Chote Chote",
+        "SongUrl" : "Assets/Audio/Chhote Chhote Peg.mp3",
+        "SongImage" : "Assets/Images/chote.jpg",
     },
     {
         "id" : 7,
@@ -62,14 +62,14 @@ var SongsArray = [
     {
         "id" : 11,
         "SongName" : "Road Trip",
-        "SongUrl" : "Assets/Audio/We Don t Care.mp3",
+        "SongUrl" : "Assets/Audio/Bom Diggy Diggy.mp3",
         "SongImage" : "Assets/Images/road.png",
     },
     {
         "id" : 12,
-        "SongName" : "Tareefan",
-        "SongUrl" : "Assets/Audio/Tareefan.mp3",
-        "SongImage" : "Assets/Images/Tareefan.jpg",
+        "SongName" : "Paa Hi Liya",
+        "SongUrl" : "Assets/Audio/Paa Hi liya.m4a",
+        "SongImage" : "Assets/Images/paa hi.jpg",
     },
     {
         "id" : 13,
@@ -98,14 +98,14 @@ var SongsArray = [
     {
         "id" : 17,
         "SongName" : "Bhangra",
-        "SongUrl" : "Assets/Audio/Razamand.mp3",
+        "SongUrl" : "Assets/Audio/5 Taara.mp3",
         "SongImage" : "Assets/Images/bhangra.png",
     },
     {
         "id" : 18,
-        "SongName" : "High On Life",
-        "SongUrl" : "Assets/Audio/High On Life.mp3",
-        "SongImage" : "Assets/Images/high.jpg",
+        "SongName" : "Perfect",
+        "SongUrl" : "Assets/Audio/Perfect.mp3",
+        "SongImage" : "Assets/Images/perfect.jpg",
     },
     {
         "id" : 19,
@@ -134,14 +134,14 @@ var SongsArray = [
     {
         "id" : 23,
         "SongName" : "Swag",
-        "SongUrl" : "Assets/Audio/Tareefan.mp3",
+        "SongUrl" : "Assets/Audio/Nachle Na.mp3",
         "SongImage" : "Assets/Images/swag.png",
     },
     {
         "id" : 24,
-        "SongName" : "Thinking",
-        "SongUrl" : "Assets/Audio/Thinking.m4a",
-        "SongImage" : "Assets/Images/thinking.jpg",
+        "SongName" : "Dil Diyan",
+        "SongUrl" : "Assets/Audio/Dil Diyan Gallan.mp3",
+        "SongImage" : "Assets/Images/dil diyan.jpg",
     },
     {
         "id" : 25,
@@ -170,14 +170,14 @@ var SongsArray = [
     {
         "id" : 29,
         "SongName" : "Romantic",
-        "SongUrl" : "Assets/Audio/Dhadak.mp3",
+        "SongUrl" : "Assets/Audio/Chand si mehbooba.m4a",
         "SongImage" : "Assets/Images/romance.png",
     },
     {
         "id" : 30,
-        "SongName" : "Taare",
-        "SongUrl" : "Assets/Audio/Taare Mutiyare.mp3",
-        "SongImage" : "Assets/Images/taare mutiyaare.jpg",
+        "SongName" : "Dil Chori",
+        "SongUrl" : "Assets/Audio/Dil Chori.mp3",
+        "SongImage" : "Assets/Images/dil chori.jpg",
     },
     {
         "id" : 31,
@@ -206,13 +206,13 @@ var SongsArray = [
     {
         "id" : 35,
         "SongName" : "Sad",
-        "SongUrl" : "Assets/Audio/Yellow.m4a",
+        "SongUrl" : "Assets/Audio/Tera Zikr.mp3",
         "SongImage" : "Assets/Images/sad.png",
     },
     {
         "id" : 36,
-        "SongName" : "Milegi Milegi",
-        "SongUrl" : "Assets/Audio/Milegi Milegi.mp3",
-        "SongImage" : "Assets/Images/milegi.jpg",
+        "SongName" : "Tera Yaar",
+        "SongUrl" : "Assets/Audio/Tera Yaar Hoon Main.mp3",
+        "SongImage" : "Assets/Images/tera yaar.jpg",
     }
 ]
